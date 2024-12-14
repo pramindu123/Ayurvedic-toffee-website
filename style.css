@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fbeff7;
+    color: #4a4a4a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px; /* Reduced padding to reduce overall height */
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    width: auto; /* Keep the width auto for better scaling */
+    height: 50px; /* Reduced the height of the logo */
+    display: block; /* Make sure the image is displayed properly */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration:none;
+    font-weight: 700;
+    color: #4a4a4a;
+    font-size: 16px;
+}
+
+.cart-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #ffe4ec, #fbeff7);
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #4a144a;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #4a144a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.product-display {
+    display: flex;
+    justify-content: center;
+}
+
+.product-display img {
+    width: 30%;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+}
+
+.testimonial img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    background: #f9f9f9;
+}
+
+.ingredients span {
+    padding: 10px 20px;
+    background: #ffe4ec;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a144a;
+}
+
+.map-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.map-section h2 {
+    font-size: 32px;
+    color: #4a144a;
+    margin-bottom: 20px;
+}
+
+.map-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+}
+
+.map-container {
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #fbeff7; /* A color matching your theme */
+    color: #4a144a;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+/* Media Query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .product-display img {
+        width: 60%; /* Increase size for tablets and smaller screens */
+        margin-top: 0;
+    }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .product-display img {
+        width: 80%; /* Increase size further for mobile screens */
+        margin-top: 0;
+    }
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.about-us h2 {
+    font-size: 32px;
+    color: #4a144a;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Responsive Design for About Us */
+@media (max-width: 768px) {
+    .about-us {
+        padding: 40px 15px;
+    }
+
+    .about-us p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us {
+        padding: 30px 10px;
+    }
+
+    .about-us p {
+        font-size: 14px;
+    }
+}
+
+
